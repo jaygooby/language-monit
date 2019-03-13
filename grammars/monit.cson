@@ -6,11 +6,8 @@
 'patterns': [
   {
     'comment': 'comment'
-    'begin': '^.*(#.*)'
-    'beginCaptures':
-      '1':
-        'name': 'comment'
-    'end': '\\n'
+    'match': '#.*'
+    'name': 'comment'
   },
   {
     'comment': 'numeric'
